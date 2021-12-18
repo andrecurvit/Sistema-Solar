@@ -1,0 +1,96 @@
+body {
+  background: black;
+  margin: 0;
+  padding: 0;
+  height: 200vmin;
+}
+
+.objeto {
+  border-radius: 50%;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transform: translateY( 50vmin );
+}
+
+.p-orbita, #orbita{
+  border: 0.1vmin solid lightgrey;
+  opacity: 0.5;
+  background: transparent;
+}
+
+#belt {
+  height: 97vmin;
+  width: 97vmin;
+  animation: spin 50s infinite linear;
+  margin-top: 50vmin;
+}
+
+@keyframes spin{
+  0%{ transform: rotate(0deg) }
+  100%{ transform: rotate(360deg) }
+}
+
+#orbita {
+  height: 8vmin;
+  width: 8vmin;
+}
+
+.planeta, #lua {
+  z-index: 100;
+}
+
+#sol {
+  height: 12vmin;
+  width: 12vmin;
+}
+
+#lua {
+  height: 1vmin;
+  width: 1vmin;
+  background-color: white;
+}
+
+#mercurio {
+  height: 2vmin;
+  width: 2vmin;
+}
+
+#venus {
+  height: 3vmin;
+  width: 3vmin;
+}
+
+#terra {
+  height: 4vmin;
+  width: 4vmin;
+}
+
+#marte {
+  height: 3.5vmin;
+  width: 3.5vmin;
+}
+
+#jupiter {
+  height: 12vmin;
+  width: 12vmin;
+}
+
+#saturno {
+  height: 12vmin;
+  width: 12vmin;
+  border-radius: 0%;
+}
+
+#urano {
+  height: 5vmin;
+  width: 5vmin;
+}
+
+#netuno {
+  height: 4vmin;
+  width: 4vmin;
+}
